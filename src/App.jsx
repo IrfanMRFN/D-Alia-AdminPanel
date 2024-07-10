@@ -11,7 +11,7 @@ import Login from "./pages/Login";
 import Orders from "./pages/Orders";
 
 const App = () => {
-  const API_URL = "http://156.67.220.12:3000";
+  const API_URL = "http://srv559785.hstgr.cloud";
   const [loggedIn, setLoggedIn] = useState(false);
   const [token, setToken] = useState("");
 
