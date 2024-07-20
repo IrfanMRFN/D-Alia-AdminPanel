@@ -11,7 +11,7 @@ import Login from "./pages/Login";
 import Orders from "./pages/Orders";
 
 const App = () => {
-  const API_URL = "http://srv559785.hstgr.cloud";
+  const API_URL = import.meta.env.VITE_API_URL;
   const [loggedIn, setLoggedIn] = useState(false);
   const [token, setToken] = useState("");
 
